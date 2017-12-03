@@ -1,0 +1,407 @@
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Old Standard TT', serif;
+font-family: 'Volkhov', serif;*/
+
+/* first div starts */
+
+.navbar-default {
+    background-color: #2c3e50;
+    border-color: transparent;
+    padding-top: 10px;
+    font-size: 120%;
+}
+
+.navbar-default .navbar-nav li a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #2ecc71;
+    font-weight: bold;
+    word-spacing: 2px;
+    text-shadow: 0 0 1px black;
+}
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    word-spacing: 2px;
+    color: #2ecc71;
+    box-shadow: 0 0 15px #2ecc71;
+    text-shadow: 0 0 1px black;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+
+
+.navbar-default .navbar-nav li .open a:focus,
+.navbar-default .navbar-nav li .open a:hover {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    word-spacing: 2px;
+    background-color: #202830;
+    box-shadow: 0 0 15px #2ecc71;
+    text-shadow: 0 0 1px black;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+@keyframes btnNav {
+    from {
+        color: #2ecc71;
+    }
+    to {
+        color: #00ff6c;
+    }
+}
+.website{
+    color: #f94272;
+}
+@media only screen and (min-width: 761px){
+    .mychobi{
+        width: 12%;
+        height: auto;
+        margin-top: 8%;
+    } 
+
+    .name{
+        font-size: 100px;
+        font-family: 'Satisfy', cursive;
+        color: cyan;
+        text-shadow: 0 0 10px cyan;
+    }
+
+    .name:hover{
+        font-size: 100px;
+        font-family: 'Satisfy', cursive;
+        color: lightcyan;
+        text-shadow: 0 0 25px lightcyan;
+        text-decoration: none;
+    }
+    .titleHeader{
+        margin-top: -2%;
+        font-size: 75px;
+        font-family: 'Oswald', sans-serif;
+        color: #ffffff;
+        word-spacing: 2px;
+        text-shadow: 0 10px 10px black;
+    }
+
+    .bR{
+        border-right: 1px solid cyan;
+    }
+
+    .pGraph{
+        font-family: 'Gabriela', serif;
+        font-size: 24px;
+        letter-spacing: 2px;
+        color: white;
+        text-shadow: 0 0 1px black;
+    }
+    .portfolioDiv{
+        height: 750px;
+        background-image: url(../images/skills.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        padding-bottom: 20%;
+    }
+    .headerTextWhite{
+        font-family: 'Old Standard TT', serif;
+        font-weight: bolder;
+        color: white;
+        font-size: 50px;
+        text-shadow: 0 10px 10px black;
+    }
+
+    .smallHeader{
+        font-size: 35px;
+        font-family: 'Old Standard TT', serif;
+        color:  #ffff99;
+    }
+}
+@media only screen and (max-width: 760px){
+    .mychobi{
+        width: 40%;
+        height: auto;
+        margin-top: 28%;
+    } 
+
+    .name{
+        font-size: 50px;
+        font-family: 'Satisfy', cursive;
+        color: cyan;
+        text-shadow: 0 0 10px cyan;
+    }
+
+    .name:hover{
+        font-size: 50px;
+        font-family: 'Satisfy', cursive;
+        color: lightcyan;
+        text-shadow: 0 0 25px lightcyan;
+        text-decoration: none;
+    }
+
+    .titleHeader{
+        margin-top: -2%;
+        font-size: 38px;
+        font-family: 'Oswald', sans-serif;
+        color: #ffffff;
+        word-spacing: 2px;
+        text-shadow: 0 10px 10px black;
+    }
+
+    .bR{
+        border-bottom: 1px solid cyan;
+
+    }
+    
+    .pGraph{
+        font-family: 'Gabriela', serif;
+        font-size: 13px;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    .headerTextWhite{
+        font-family: 'Old Standard TT', serif;
+        font-weight: bolder;
+        color: white;
+        font-size: 32px;
+        text-shadow: 0 10px 10px black;
+    }
+    .smallHeader{
+        font-size: 25px;
+        font-family: 'Old Standard TT', serif;
+        color:  #ffff99;
+    }
+    .portfolioDiv{
+    background-image: url(../images/skills.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 5%;
+}
+}
+.margin-content-clients{
+    margin-top: 25px;
+
+}
+.say-div{
+    min-height: 750px;
+    background-image: url(../images/9832.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    background-attachment: fixed;
+}
+
+
+.icons{
+    color: #FAEBD7;
+    transition: all .7s;
+}
+
+.icons:hover{
+    color: #FAEBD7;
+    transform: scale(1.2,1.2);
+}
+.marginName{
+    margin-top: -3%;
+}
+
+.nameLogo{
+    margin-left: 10%;
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+    color: #2ecc71;
+    text-shadow: 0 0 1px black;
+}
+
+.nameLogo:hover{
+    margin-left: 10%;
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    color: #2ecc71;
+    text-shadow: 0 0 1px black;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+
+
+
+/* extra */
+
+.firstDiv{
+    color: white;
+    background-color: #34495e;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.headerTextBlack{
+    font-family: 'Old Standard TT', serif;
+    font-weight: bolder;
+    color: #16EFF4;
+    font-size: 50px;
+    text-shadow: 0 10px 10px black;
+}
+
+.mySkillsDiv{
+    min-height: 600px;
+    background-image: url(../images/5882.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+.marginContentSkills{
+    margin-top: 50px;
+}
+
+.aboutMeDiv{
+    background-image: url(../images/aboutMe.png);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 5%;
+
+}
+.yellow{
+    color:  #16EFF4;
+}
+
+.contentAboutMe{
+    margin-top: 150px;
+}
+
+.edu-links{
+    color:  #16EFF4;
+
+}
+
+.edu-links:hover{
+    color:  #16EFF4;
+}
+
+.margin-aust{
+    margin-top: 180px;
+}
+
+.portfolio{
+    transition: all;
+    transition-duration: 1s;
+    padding: 3% 0 3% 0;
+}
+
+.portfolio:hover{
+    width: 600px;
+    transform: scale(1.1);
+    padding: 3% 0 3% 0;
+}
+
+.marginPortfolioContent{
+    margin-top: 50px;
+}
+
+.experience-div{
+    min-height: 500px;
+    background-color: #1a1a1a;
+}
+
+
+.clients-div{
+    min-height: 220px;
+}
+
+.content-clients-div{
+    margin-top: 5px;
+}
+
+.headerTextB{
+    font-family: 'Old Standard TT', serif;
+    color: black;
+    text-shadow: 0 0 1px lightblue;
+    font-size: 35px;
+}
+
+.ulHeaderTextB{
+    padding: 0 15px 10px 15px;
+    border-bottom: 4px solid black;
+}
+
+.sendMessage{
+    padding: 10px 15px 10px 15px;
+    background-color: #18bc9c;
+    font-family: 'Merienda One', cursive;
+    color: white;
+}
+
+.sendMessage:hover{
+    padding: 10px 15px 10px 15px;
+    background-color: #128F76;
+    font-family: 'Merienda One', cursive;
+    color: white;
+}
+.experinceDiv{
+    background-color: black;
+    min-height: 250px;
+    padding-bottom: 50px;
+}
+
+
+.contact-me-div{
+    background-image: url(../images/4618.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    background-position: center;
+    padding-bottom: 2%;
+}
+
+.content-contact-me-div{
+    margin-top: 50px;
+}
+.paddingOfContactIcons{
+    padding: 10px;
+}
+
+
+.ul-header-text-black{
+    padding: 0 15px 10px 15px;
+    border-bottom: 5px solid #16EFF4;
+}
+
+.ulHeaderTextWhite{
+    padding: 0 15px 10px 15px;
+    border-bottom: 5px solid white;
+}
+
+.footer-div{
+    min-height: 80px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.margin-content-footer{
+    margin-top: 25px;
+}
+
+.margin-content-experience{
+    margin-top: 40px;
+}
+
+.wH{
+    color: yellow;
+    font-size: 35px;
+}
